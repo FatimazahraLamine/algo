@@ -1,0 +1,147 @@
+1. Algoritma, bir problemi çözmek veya görevi gerçekleştirmek için adım adım yönergeleri içeren bir plan veya reçetedir. Algoritmaların gerekliliği, hataları azaltma, performansı artırma ve problemleri etkili bir şekilde çözme yetenekleri ile ilgilidir.
+
+2. Program yazmadan önce genellikle algoritma hazırlanmalıdır.
+
+3. Algoritma hazırlanırken doğruluk, anlaşılabilirlik, verimlilik ve girdi/çıktı işlemlerine dikkat edilmelidir.
+
+4. Bir değişken, programlarda veri saklamak ve işlemek için sembolik bir isimdir. Değişkenlere ihtiyaç, verileri saklamak, geçici verileri takip etmek ve işlemleri gerçekleştirmek içindir.
+
+5. Sayaçlar, döngülerin kontrolünde kullanılır ve tekrarlayan işlemleri izlemek için kullanışlıdır.
+
+6.Verilen algoritmanın sonucu şu şekilde hesaplanır:
+
+1. Başla
+2. T=0
+3. S=0
+4. Eğer S>10 ise Git 8
+5. T=T+2*S  (T = 0 + 2 * 0 = 0)
+6. S=S+2 (S = 0 + 2 = 2)
+7. Git 4 (Döngünün başına git)
+4. Eğer S>10 ise Git 8 (S = 2, 10'dan küçük olduğu için bu adım atlanır)
+5. T=T+2*S  (T = 0 + 2 * 2 = 4)
+6. S=S+2 (S = 2 + 2 = 4)
+7. Git 4 (Döngünün başına git)
+4. Eğer S>10 ise Git 8 (S = 4, 10'dan küçük olduğu için bu adım atlanır)
+5. T=T+2*S  (T = 4 + 2 * 4 = 12)
+6. S=S+2 (S = 4 + 2 = 6)
+7. Git 4 (Döngünün başına git)
+4. Eğer S>10 ise Git 8 (S = 6, 10'dan küçük olduğu için bu adım atlanır)
+5. T=T+2*S  (T = 12 + 2 * 6 = 24)
+6. S=S+2 (S = 6 + 2 = 8)
+7. Git 4 (Döngünün başına git)
+4. Eğer S>10 ise Git 8 (S = 8, 10'dan büyük olduğu için 8. adıma git)
+8. Yaz T (T = 24 yazdırılır)
+9. Dur
+
+Sonuç olarak, verilen algoritma çalıştırıldığında "T" değişkeninin değeri 24 olacaktır.
+
+
+7.Bu algoritma bir döngü içeriyor gibi görünüyor. Adımları adım adım işleyelim:
+
+1. Başla
+2. F = 1
+3. S = 20
+4. Eğer S < 1 ise 9. adıma git. (S = 20 olduğu için bu koşul sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 20 - 3 = 17)
+6. F = F + S (F şimdi 1 + 17 = 18)
+7. F = F + 2 (F şimdi 18 + 2 = 20)
+8. Git 4. adıma. (Bu, bir döngü başlatmaz, sadece 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 17 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 17 - 3 = 14)
+6. F = F + S (F şimdi 20 + 14 = 34)
+7. F = F + 2 (F şimdi 34 + 2 = 36)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 14 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 14 - 3 = 11)
+6. F = F + S (F şimdi 36 + 11 = 47)
+7. F = F + 2 (F şimdi 47 + 2 = 49)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 11 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 11 - 3 = 8)
+6. F = F + S (F şimdi 49 + 8 = 57)
+7. F = F + 2 (F şimdi 57 + 2 = 59)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 8 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 8 - 3 = 5)
+6. F = F + S (F şimdi 59 + 5 = 64)
+7. F = F + 2 (F şimdi 64 + 2 = 66)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 5 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 5 - 3 = 2)
+6. F = F + S (F şimdi 66 + 2 = 68)
+7. F = F + 2 (F şimdi 68 + 2 = 70)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = 2 olduğu için bu koşul hala sağlanmıyor, bu nedenle devam ediyoruz)
+5. S = S - 3 (S şimdi 2 - 3 = -1)
+6. F = F + S (F şimdi 70 - 1 = 69)
+7. F = F + 2 (F şimdi 69 + 2 = 71)
+8. Git 4. adıma. (Bu tekrar 4. adıma geri döner)
+
+4. Eğer S < 1 ise 9. adıma git. (S = -1 olduğu için bu koşul artık sağlanıyor)
+Yani, S sonunda -1 olduğunda 4. adımda koşul sağlanır ve algoritma 9. adıma gider.
+
+9. Yaz F (F şimdi 71)
+10. Dur
+
+Sonuç olarak, algoritmanın sonucu F'nin değeri olan 71'dir.
+
+
+8.#include <stdio.h>
+
+int main() {
+    // Değişkenleri tanımla
+    float sayi1, sayi2, sayi3, enBuyuk;
+
+    // Kullanıcıdan üç sayıyı al
+    printf("Birinci sayıyı girin: ");
+    scanf("%f", &sayi1);
+
+    printf("İkinci sayıyı girin: ");
+    scanf("%f", &sayi2);
+
+    printf("Üçüncü sayıyı girin: ");
+    scanf("%f", &sayi3);
+
+    // En büyük sayıyı bul
+    if (sayi1 >= sayi2 && sayi1 >= sayi3) {
+        enBuyuk = sayi1;
+    } else if (sayi2 >= sayi1 && sayi2 >= sayi3) {
+        enBuyuk = sayi2;
+    } else {
+        enBuyuk = sayi3;
+    }
+
+    // Sonucu yazdır
+    printf("En büyük sayı: %f\n", enBuyuk);
+
+    return 0;
+}
+
+
+
+9.
+#include <stdio.h>
+
+int main() {
+    int odd_sum = 0;
+    int even_sum = 0;
+
+    for (int i = 1; i <= 99; i++) {
+        if (i % 2 == 0) {
+            even_sum += i;
+        } else {
+            odd_sum += i;
+        }
+    }
+
+    printf("Sum of even numbers: %d\n", even_sum);
+    printf("Sum of odd numbers: %d\n", odd_sum);
+
+    return 0;
+}
